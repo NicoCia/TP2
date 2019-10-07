@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "prompt.h"
 #include "echo.h"
 
@@ -7,6 +8,7 @@
 #define MAX 100
 
 int main(int argc, char *argv[]) {
+
     char in[MAX]="\0";
     char out[MAX]="\0";
     int bandera=0;

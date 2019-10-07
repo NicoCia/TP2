@@ -4,6 +4,9 @@
 CMakeFiles/TP2.dir/echo.c.o: ../echo.c
 CMakeFiles/TP2.dir/echo.c.o: ../echo.h
 
+CMakeFiles/TP2.dir/invocation.c.o: ../invocation.c
+CMakeFiles/TP2.dir/invocation.c.o: ../invocation.h
+
 CMakeFiles/TP2.dir/main.c.o: ../echo.h
 CMakeFiles/TP2.dir/main.c.o: ../main.c
 CMakeFiles/TP2.dir/main.c.o: ../prompt.h
