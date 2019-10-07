@@ -16,3 +16,19 @@ echo.h
 
 /home/nicocia/CLionProjects/TP2/echo.h
 
+/home/nicocia/CLionProjects/TP2/prompt.c
+prompt.h
+/home/nicocia/CLionProjects/TP2/prompt.h
+echo.h
+/home/nicocia/CLionProjects/TP2/echo.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+
+/home/nicocia/CLionProjects/TP2/prompt.h
+

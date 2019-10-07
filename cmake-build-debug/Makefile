@@ -150,6 +150,33 @@ echo.c.s:
 	$(MAKE) -f CMakeFiles/TP2.dir/build.make CMakeFiles/TP2.dir/echo.c.s
 .PHONY : echo.c.s
 
+invocation.o: invocation.c.o
+
+.PHONY : invocation.o
+
+# target to build an object file
+invocation.c.o:
+	$(MAKE) -f CMakeFiles/TP2.dir/build.make CMakeFiles/TP2.dir/invocation.c.o
+.PHONY : invocation.c.o
+
+invocation.i: invocation.c.i
+
+.PHONY : invocation.i
+
+# target to preprocess a source file
+invocation.c.i:
+	$(MAKE) -f CMakeFiles/TP2.dir/build.make CMakeFiles/TP2.dir/invocation.c.i
+.PHONY : invocation.c.i
+
+invocation.s: invocation.c.s
+
+.PHONY : invocation.s
+
+# target to generate assembly for a file
+invocation.c.s:
+	$(MAKE) -f CMakeFiles/TP2.dir/build.make CMakeFiles/TP2.dir/invocation.c.s
+.PHONY : invocation.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -216,6 +243,9 @@ help:
 	@echo "... echo.o"
 	@echo "... echo.i"
 	@echo "... echo.s"
+	@echo "... invocation.o"
+	@echo "... invocation.i"
+	@echo "... invocation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

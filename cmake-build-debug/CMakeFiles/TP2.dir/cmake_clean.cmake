@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/TP2.dir/main.c.o"
   "CMakeFiles/TP2.dir/prompt.c.o"
   "CMakeFiles/TP2.dir/echo.c.o"
+  "CMakeFiles/TP2.dir/invocation.c.o"
   "TP2.pdb"
   "TP2"
 )
