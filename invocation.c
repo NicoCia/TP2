@@ -25,12 +25,13 @@ void leer_comando(char comando[] ,char punt[] ,char *argv[] ,char *entrada ,char
         switch (estado){
             case 0:
                 //nombre del programa a invocar
-                for(int i=0; (comando[j]!=' ')|(comando[j]!='\n') & (i<MAX); i++){
-                    punt[i]=comando[j];
+                for(int i=0; (comando[j]!=' ')|(comando[j]!='\n') & (i<MAX); i++) {
+                    punt[i] = comando[j];
                     j++;
                 }
-                j++;
                 estado++;
+                j++;
+                if (strlen(comando)<=j) estado=END;
                 break;
 
             case 1:
@@ -46,9 +47,20 @@ void leer_comando(char comando[] ,char punt[] ,char *argv[] ,char *entrada ,char
                 }
                 argv[p]=NULL;
                 estado++;
+                j++;
+                if (strlen(comando)<=j) estado=END;
                 break;
 
             case 2:
+                //redireccion entrada
+                for (int l = 0; l < ; l++) {
+
+                }
+                j++;
+                if (strlen(comando)<=j) estado=END;
+                break;
+
+            case 3:
 
 
             default:
