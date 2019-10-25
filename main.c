@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 #include <string.h>
 #include <stdlib.h>
 #include "prompt.h"
@@ -24,7 +25,6 @@ int main(int argc, char *argv[]) {
         if(bandera==0) printPrompt();
         if(fgets(in, sizeof(in), fp)==NULL) break;
         if(strcmp(in,"clr\n")==0) {
-            //printf("E\n"); //VER SI HACE FALTA O NO
             printf(CLEAR);
         }
         if(verificar(in,"echo")) {
