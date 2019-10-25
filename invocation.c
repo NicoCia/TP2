@@ -6,3 +6,7 @@
 #include <errno.h>
 #include <sys/wait.h>
 
+int invocar(char *argv){
+
+    return 0;
+}

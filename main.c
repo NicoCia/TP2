@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include "prompt.h"
 #include "echo.h"
+#include "invocation.h"
 
 #define CLEAR "\e[1;1H\e[2J"
 #define MAX 100
@@ -32,6 +33,7 @@ int main(int argc, char *argv[]) {
             puts(out);
             strcpy(out,"\0");
         }
+        else invocar(in);
     }
 
     fclose(fp);
