@@ -8,6 +8,24 @@
 
 /home/nicocia/CLionProjects/TP2/echo.h
 
+/home/nicocia/CLionProjects/TP2/invocation.c
+invocation.h
+/home/nicocia/CLionProjects/TP2/invocation.h
+stdlib.h
+-
+sys/types.h
+-
+unistd.h
+-
+stdio.h
+-
+errno.h
+-
+sys/wait.h
+-
+
+/home/nicocia/CLionProjects/TP2/invocation.h
+
 /home/nicocia/CLionProjects/TP2/main.c
 stdio.h
 -
@@ -21,20 +39,8 @@ prompt.h
 /home/nicocia/CLionProjects/TP2/prompt.h
 echo.h
 /home/nicocia/CLionProjects/TP2/echo.h
-
-/home/nicocia/CLionProjects/TP2/prompt.c
-prompt.h
-/home/nicocia/CLionProjects/TP2/prompt.h
-echo.h
-/home/nicocia/CLionProjects/TP2/echo.h
-stdio.h
--
-stdlib.h
--
-string.h
--
-unistd.h
--
+invocation.h
+/home/nicocia/CLionProjects/TP2/invocation.h
 
 /home/nicocia/CLionProjects/TP2/prompt.h
 

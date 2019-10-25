@@ -33,7 +33,7 @@ int main(int argc, char *argv[]) {
             puts(out);
             strcpy(out,"\0");
         }
-        else invocar(in);
+        //else invocar(in);
     }
 
     fclose(fp);
