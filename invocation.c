@@ -11,7 +11,7 @@
 #define MAX 100
 
 
-int leer_comando(char comando[] ,char punt[] ,char *argv[] ,char *entrada ,char *salida){
+void leer_comando(char comando[] ,char punt[] ,char *argv[] ,char *entrada ,char *salida){
 
     int estado=0;
     int step=0;
