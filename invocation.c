@@ -7,10 +7,13 @@
 #include <errno.h>
 #include <sys/wait.h>
 
-char *punt[100];
+#define END 404
+#define MAX 100
 
-int leer_comando(char comando[] ,char *argv[] ,char *entrada ,char *salida){
-    int estado=1;
+
+int leer_comando(char comando[] ,char punt[] ,char *argv[] ,char *entrada ,char *salida){
+
+    int estado=0;
     int step=0;
     int p=0;
     int j=0;
@@ -18,6 +21,42 @@ int leer_comando(char comando[] ,char *argv[] ,char *entrada ,char *salida){
     entrada=NULL; //redireccion entrada
     salida=NULL; //redireccion salida
 
+    while(estado!=END){
+        switch (estado){
+            case 0:
+                //nombre del programa a invocar
+                for(int i=0; (comando[j]!=' ')|(comando[j]!='\n') & (i<MAX); i++){
+                    punt[i]=comando[j];
+                    j++;
+                }
+                j++;
+                estado++;
+                break;
+
+            case 1:
+                //argumentos del programa a invocar
+                while (((comando[j]!='\n')|(comando[j]!=' <')|(comando[j]!='>'))&(p<MAX)){
+                    char aux[MAX]="\0";
+                    for (int k = 0; comando[j]!=' ' ; k++) {
+                        aux[k]=comando[j];
+                        j++;
+                    }
+                    argv[p]=aux;
+                    p++;
+                }
+                argv[p]=NULL;
+                estado++;
+                break;
+
+            case 2:
+
+
+            default:
+                estado=END;
+                break;
+
+        }
+    }
     /*/while (estado){
         char aux[1000]="\0";
         for (int i = 0; argv[j]!=' '; ++i) {
@@ -38,8 +77,13 @@ int leer_comando(char comando[] ,char *argv[] ,char *entrada ,char *salida){
     punt=*/
 }
 
-int invocar(char argv[]){
-    leer_comando(argv);
+int invocar(char comando[]){
+    char punt[MAX]="\0";
+    char *argv[MAX]={NULL};
+    char *entrada;
+    char *salida;
+
+    leer_comando(comando, punt, argv, entrada, salida);
 
     return 0;
 }
