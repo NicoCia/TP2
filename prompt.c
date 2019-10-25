@@ -19,7 +19,7 @@
 #define HOME getenv("HOME")
 
 void printPrompt(void) {
-    //ver reemplazar /home/USERNAME por ~
+    //TODO ver reemplazar /home/USERNAME por ~
     char prompt[100]="\0";
     char hostname[100]="\0";
 

@@ -43,10 +43,10 @@ RM = /opt/clion-2019.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicocia/CLionProjects/TP2
+CMAKE_SOURCE_DIR = /home/nico/CLionProjects/TP2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicocia/CLionProjects/TP2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/nico/CLionProjects/TP2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TP2.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/TP2.dir/flags.make
 
 CMakeFiles/TP2.dir/main.c.o: CMakeFiles/TP2.dir/flags.make
 CMakeFiles/TP2.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicocia/CLionProjects/TP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP2.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP2.dir/main.c.o   -c /home/nicocia/CLionProjects/TP2/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/CLionProjects/TP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP2.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP2.dir/main.c.o   -c /home/nico/CLionProjects/TP2/main.c
 
 CMakeFiles/TP2.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP2.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nicocia/CLionProjects/TP2/main.c > CMakeFiles/TP2.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/CLionProjects/TP2/main.c > CMakeFiles/TP2.dir/main.c.i
 
 CMakeFiles/TP2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP2.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nicocia/CLionProjects/TP2/main.c -o CMakeFiles/TP2.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/CLionProjects/TP2/main.c -o CMakeFiles/TP2.dir/main.c.s
 
 CMakeFiles/TP2.dir/prompt.c.o: CMakeFiles/TP2.dir/flags.make
 CMakeFiles/TP2.dir/prompt.c.o: ../prompt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicocia/CLionProjects/TP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TP2.dir/prompt.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP2.dir/prompt.c.o   -c /home/nicocia/CLionProjects/TP2/prompt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/CLionProjects/TP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TP2.dir/prompt.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP2.dir/prompt.c.o   -c /home/nico/CLionProjects/TP2/prompt.c
 
 CMakeFiles/TP2.dir/prompt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP2.dir/prompt.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nicocia/CLionProjects/TP2/prompt.c > CMakeFiles/TP2.dir/prompt.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/CLionProjects/TP2/prompt.c > CMakeFiles/TP2.dir/prompt.c.i
 
 CMakeFiles/TP2.dir/prompt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP2.dir/prompt.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nicocia/CLionProjects/TP2/prompt.c -o CMakeFiles/TP2.dir/prompt.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/CLionProjects/TP2/prompt.c -o CMakeFiles/TP2.dir/prompt.c.s
 
 CMakeFiles/TP2.dir/echo.c.o: CMakeFiles/TP2.dir/flags.make
 CMakeFiles/TP2.dir/echo.c.o: ../echo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicocia/CLionProjects/TP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TP2.dir/echo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP2.dir/echo.c.o   -c /home/nicocia/CLionProjects/TP2/echo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/CLionProjects/TP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TP2.dir/echo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP2.dir/echo.c.o   -c /home/nico/CLionProjects/TP2/echo.c
 
 CMakeFiles/TP2.dir/echo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP2.dir/echo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nicocia/CLionProjects/TP2/echo.c > CMakeFiles/TP2.dir/echo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/CLionProjects/TP2/echo.c > CMakeFiles/TP2.dir/echo.c.i
 
 CMakeFiles/TP2.dir/echo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP2.dir/echo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nicocia/CLionProjects/TP2/echo.c -o CMakeFiles/TP2.dir/echo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/CLionProjects/TP2/echo.c -o CMakeFiles/TP2.dir/echo.c.s
 
 CMakeFiles/TP2.dir/invocation.c.o: CMakeFiles/TP2.dir/flags.make
 CMakeFiles/TP2.dir/invocation.c.o: ../invocation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicocia/CLionProjects/TP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/TP2.dir/invocation.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP2.dir/invocation.c.o   -c /home/nicocia/CLionProjects/TP2/invocation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nico/CLionProjects/TP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/TP2.dir/invocation.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP2.dir/invocation.c.o   -c /home/nico/CLionProjects/TP2/invocation.c
 
 CMakeFiles/TP2.dir/invocation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP2.dir/invocation.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nicocia/CLionProjects/TP2/invocation.c > CMakeFiles/TP2.dir/invocation.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/CLionProjects/TP2/invocation.c > CMakeFiles/TP2.dir/invocation.c.i
 
 CMakeFiles/TP2.dir/invocation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP2.dir/invocation.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nicocia/CLionProjects/TP2/invocation.c -o CMakeFiles/TP2.dir/invocation.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/CLionProjects/TP2/invocation.c -o CMakeFiles/TP2.dir/invocation.c.s
 
 # Object files for target TP2
 TP2_OBJECTS = \
@@ -125,7 +125,7 @@ TP2: CMakeFiles/TP2.dir/echo.c.o
 TP2: CMakeFiles/TP2.dir/invocation.c.o
 TP2: CMakeFiles/TP2.dir/build.make
 TP2: CMakeFiles/TP2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nicocia/CLionProjects/TP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable TP2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nico/CLionProjects/TP2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable TP2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/TP2.dir/clean:
 .PHONY : CMakeFiles/TP2.dir/clean
 
 CMakeFiles/TP2.dir/depend:
-	cd /home/nicocia/CLionProjects/TP2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicocia/CLionProjects/TP2 /home/nicocia/CLionProjects/TP2 /home/nicocia/CLionProjects/TP2/cmake-build-debug /home/nicocia/CLionProjects/TP2/cmake-build-debug /home/nicocia/CLionProjects/TP2/cmake-build-debug/CMakeFiles/TP2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nico/CLionProjects/TP2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nico/CLionProjects/TP2 /home/nico/CLionProjects/TP2 /home/nico/CLionProjects/TP2/cmake-build-debug /home/nico/CLionProjects/TP2/cmake-build-debug /home/nico/CLionProjects/TP2/cmake-build-debug/CMakeFiles/TP2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TP2.dir/depend
 
