@@ -23,9 +23,9 @@ int main(int argc, char *argv[]) {
     }
 
     while((strcmp(in,"quit\n") != 0)){
-        if(bandera==0) printPrompt();
+        if(bandera==0) printPrompt();                       //Bandera estará en 1 si se lee las instrucciones de un archivo
         if(fgets(in, sizeof(in), fp)==NULL) break;
-        if(strcmp(in,"clr\n")==0) {
+        if(strcmp(in,"clr\n")==0) {                     //Comando clr, limpia la pantalla
             printf(CLEAR);
         }
         if(verificar(in,"echo")) {
@@ -33,7 +33,10 @@ int main(int argc, char *argv[]) {
             puts(out);
             strcpy(out,"\0");
         }
-        //else invocar(in);
+        if(verificar(in,"cd")){
+            cd();
+        }
+        else invocar(in);
     }
 
     fclose(fp);
